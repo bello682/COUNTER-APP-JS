@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+#counter {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#plus_minus {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+#minus:hover {
+    color: white;
+    background: black;
+}
+
+#plus:hover {
+    color: white;
+    background: black;
+}
+
+#number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#number p {
+    font-size: 100px;
+    font-weight: 900;
+    padding: 0 30px;
+
+}
+
+#number span {
+    font-size: 100px;
+    display: none;
+}
+
+/* span::before {
+    content: "";
+}
+
+span::after {
+    content: "";
+  } */
+
+
+#plus_minus h2 {
+    padding: 0 20px;
+    border: 2px solid black;
+    font-size: 40px;
+    margin: 20px;
+}
